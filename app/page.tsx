@@ -15,7 +15,7 @@ const frameMetadata = getFrameMetadata({
     },
   ],
   image: {
-    src: 'https://a-frame-in-100-lines-3wn3qi0v1-cyberpunk9932s-projects.vercel.app/park-1.png',
+    src: `${NEXT_PUBLIC_URL}/park-1.png`,
     aspectRatio: '1:1',
   },
   input: {
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Fartcaster',
     description: 'Fartcaster',
-    images: ['https://a-frame-in-100-lines-3wn3qi0v1-cyberpunk9932s-projects.vercel.app/park-1.png'],
+    images: [`${NEXT_PUBLIC_URL}/park-1.png`],
   },
   other: {
     ...frameMetadata,

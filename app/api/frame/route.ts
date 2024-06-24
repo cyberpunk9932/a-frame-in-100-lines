@@ -34,12 +34,12 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
     getFrameHtmlResponse({
       buttons: [
         {
-          label: `State: ${state?.page || 0}`,
+          label: `Your farts count: ${state?.page || 0}`,
         },
         {
           action: 'link',
-          label: 'Google',
-          target: 'https://google.com',
+          label: 'What is fart?',
+          target: 'https://www.google.com/search?q=fart&oq=fart&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg8MgYIAhBFGD0yBggDEEUYPTIGCAQQRRg9MgYIBRBFGDwyBggGEEUYQTIGCAcQLhhA0gEIMzYyNmowajGoAgCwAgA&sourceid=chrome&ie=UTF-8',
         },
         {
           action: 'post_redirect',

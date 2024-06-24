@@ -25,7 +25,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
    */
   if (message?.button === 3) {
     return NextResponse.redirect(
-      'https://www.google.com/search?q=cute+fart+pictures&tbm=isch&source=lnms',
+      'https://assets.teenvogue.com/photos/64c7d775e4c00777b0db4b8f/16:9/w_2560%2Cc_limit/MCDBARB_WB045.jpg',
       { status: 302 },
     );
   }

@@ -18,7 +18,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
         },
       ],
       image: {
-        src: 'https://a-frame-in-100-lines-3wn3qi0v1-cyberpunk9932s-projects.vercel.app/park-1.png',
+        src: `${NEXT_PUBLIC_URL}/park-1.png`,
       },
     }),
   );

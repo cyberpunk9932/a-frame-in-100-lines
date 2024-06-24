@@ -25,7 +25,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
    */
   if (message?.button === 3) {
     return NextResponse.redirect(
-      'https://www.google.com/search?q=cute+dog+pictures&tbm=isch&source=lnms',
+      'https://www.google.com/search?q=cute+fart+pictures&tbm=isch&source=lnms',
       { status: 302 },
     );
   }
@@ -38,12 +38,12 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
         },
         {
           action: 'link',
-          label: 'OnchainKit',
-          target: 'https://onchainkit.xyz',
+          label: 'Google',
+          target: 'https://google.com',
         },
         {
           action: 'post_redirect',
-          label: 'Dog pictures',
+          label: 'Fart pictures',
         },
       ],
       image: {

@@ -19,7 +19,7 @@ const frameMetadata = getFrameMetadata({
     aspectRatio: '1:1',
   },
   input: {
-    text: 'Tell me a story about your enexpected farts in a public place.',
+    text: 'Tell a story about farts in a public place.',
   },
   postUrl: `${NEXT_PUBLIC_URL}/api/frame`,
 });

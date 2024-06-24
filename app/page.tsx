@@ -15,7 +15,7 @@ const frameMetadata = getFrameMetadata({
     },
   ],
   image: {
-    src: `https://cdnstatic.rg.ru/crop800x800/uploads/images/2023/09/08/photo_6_2023-09-08_11-30-34_8c5.jpg`,
+    src: `/park-3.png`,
     aspectRatio: '1:1',
   },
   input: {
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Fartcaster',
     description: 'Fartcaster',
-    images: [`https://cdnstatic.rg.ru/crop800x800/uploads/images/2023/09/08/photo_6_2023-09-08_11-30-34_8c5.jpg`],
+    images: [`/park-1.png`],
   },
   other: {
     ...frameMetadata,
